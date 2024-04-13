@@ -338,6 +338,14 @@ nav ul li a:hover::after {
   background: #ff004f;
 }
 
+.btn2 {
+  transition: all 0.2s ease;
+}
+
+.btn2:active {
+  transform: scale(0.96);
+}
+
 .contact-right form {
   width: 100%;
 }
